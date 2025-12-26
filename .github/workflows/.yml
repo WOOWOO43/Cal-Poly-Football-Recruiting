@@ -22,8 +22,8 @@ jobs:
          name: 💎 Deploy to shinyapps.io
          uses: qwert666/shinyapps-actions@main
          env:
-           SHINY_USERNAME: 'katherinehebert' # put your own username here!
+           SHINY_USERNAME: 'Warren_Woo' # put your own username here!
            SHINY_TOKEN: ${{ secrets.TOKEN }}
            SHINY_SECRET: ${{ secrets.SECRET }}
-           APP_NAME: 'myApp' # this will show in the app's url
+           APP_NAME: 'myApp' 
            APP_DIR: ''
